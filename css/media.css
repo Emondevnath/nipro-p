@@ -1,0 +1,298 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/* header start */
+header {
+    padding:0;
+}
+.logo {
+    font-size: 25px;
+}
+.menu ul li a {
+    margin: 0px;
+  
+}
+
+
+/* search start */
+.dropdown_m {
+    width: 290px;
+    padding: 5px 15px;
+}
+.dropdown_m[data-bs-popper] {
+    top: 100%;
+    left: 0px;
+    margin-top: -2.875rem;
+}
+/* search end */
+
+/* header end */
+
+/* banner start */
+.b_slider {
+    margin: 50px 0 50px;
+   
+}
+.b_item h1 {
+    font-size:25px;
+}
+.b_item p {
+    font-size: 15px;
+    margin-top:20px !important;
+    line-height: 25px;
+    padding-right:0px;
+    text-align: justify;
+    word-spacing: -1px;
+}
+
+.b_item a{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.pn_btn{
+   text-align: center; 
+}
+/* banner end */
+/* welcome section start */
+.arrow {
+    display: none;
+    width: 2px;
+    height: 40px;
+}
+.c_title h1 {
+    font-size: 25px;
+    margin: 30px 0 0px !important;
+}
+.C_item{
+    margin: 40px 0 0 !important;
+}
+
+.w_des p {
+    font-size: 15px;
+    margin: 20px auto 40px !important;
+    text-align: justify !important;
+    word-spacing: 2px;
+}
+.C_item {
+    margin: 25px 0 0;
+}
+
+.C_item p {
+    padding: 0px 15px;
+}
+
+/* about */
+.about{
+    margin-top: 40px;
+    text-align: center;
+}
+.a_text p {
+    word-spacing: 2px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+}
+/* about */
+
+/* welcome section end */
+
+
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* header start */
+header {
+    padding: 5px 0;
+}
+.menu ul li a {
+    margin: 0px;
+  
+}
+
+
+/* search start */
+.dropdown_m[data-bs-popper] {
+    left: -5px;
+    margin-top: -2.875rem;
+}
+/* search end */
+/* header end */
+
+
+/* banner start */
+.b_slider {
+    margin: 60px 0 60px;
+}
+.b_item h1 {
+    font-size:40px;
+}
+.b_item p {
+    margin-top: 30px;
+    line-height: 30px;
+    padding-right:90px;
+}
+.b_item a{
+    margin-top: 30px;
+}
+/* banner end */
+
+/* welcome section start */
+.arrow {
+    width: 2px;
+    height: 40px;
+}
+.w_des p {
+    margin: 30px auto 60px !important;
+    text-align: justify !important;
+    word-spacing: 2px;
+}
+.C_item {
+    margin: 25px 0 0;
+
+}
+
+/* about */
+.about{
+    margin-top: 60px;
+    text-align: center;
+}
+.a_text p {
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+}
+/* about */
+/* welcome section end */
+
+
+
+
+  
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* header start */
+header {
+    padding: 10px 0;
+}
+.menu ul li a {
+    margin: 0px;
+  
+}
+
+/* search start */
+.dropdown_m[data-bs-popper] {
+    left: -5px;
+    margin-top: -2.875rem;
+}
+/* search end */
+/* header end */
+
+
+/* banner start */
+.b_slider {
+    margin: 150px 0 150px;
+}
+.b_item h1 {
+    font-size:50px;
+}
+.b_item p {
+    line-height: 30px;
+    padding-right:90px;
+}
+/* banner end */
+
+/* welcome section start */
+.arrow {
+    width: 2px;
+    height: 40px;
+}
+.w_des p {
+    margin: 40px 0 80px !important;
+}
+.C_item {
+    margin: 25px 0 0;
+}
+.C_item p{
+    padding: 0px 40px !important;
+}
+
+/* about */
+.about{
+    margin-top: 70px;
+    text-align: center;
+}
+.a_text p {
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+}
+/* about */
+/* welcome section end */
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* header start */
+/* header end*/
+
+/* banner start */
+.b_slider {
+    margin: 160px 0 160px;
+}
+.b_item h1 {
+    font-size: 47px;
+}
+.b_item p {
+    line-height: 30px;
+    padding-right: 75px;
+}
+/* banner end */
+}
+
+/* welcome start */
+.C_item p {
+    padding: 0px 5px !important;
+}
+
+
+/* about */
+.a_text {
+    padding-left:0px !important;
+}
+.a_text h2 {
+    margin-bottom:0px !important;
+}
+.a_text p {
+    line-height: 26px !important;
+    word-spacing: 1px !important;
+    margin-bottom: 10px !important;
+}
+/* welcome end */
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+
+    .a_text{
+        padding-left: 10px !important;
+    }
+    .a_text h2{
+        margin-bottom: 7px !important;
+    }
+    .a_text p{
+        line-height: 28px !important;
+        word-spacing: 5px !important;
+        margin-bottom: 18px !important;
+    }
+}
+
+/* Extra large devices (large desktops
+, 1400px and up)*/
+@media (min-width: 1400px) {
+   
+}
